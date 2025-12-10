@@ -28,4 +28,9 @@ sudo udevadm control --reload-rules
 sudo udevadm trigger
 ```
 
+## Set up multi imu interface
+```bash
+sudo usermod -G dialout -a $USER
+```
+
 
